@@ -22,7 +22,7 @@ const register = async (req, res = response) => {
     
         res.status(201).json({
             ok: true,
-            uid: user.uid,
+            uid: user._id,
             name: user.name
         })
         
